@@ -25,7 +25,7 @@ $ singularity exec --bind /path/to/workshop/folder/ larcv2_ub20.04-cuda11.6-pyto
 
 You can also pull the docker image using docker (easier on Mac and Windows) directly with:
 ```shell
-$ docker pull ~/slac/images/larcv2_ub20.04-cuda11.6-pytorch1.13-larndsim.sif
+$ docker pull deeplearnphysics/larcv2:ub20.04-cuda11.6-pytorch1.13-larndsim
 ```
 To see which images are present on your system, you can use docker images. It will look something like this:
 ```shell
