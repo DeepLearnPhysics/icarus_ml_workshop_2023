@@ -58,9 +58,7 @@ You can find data files for the examples used in this workshop under:
 /sdf/data/neutrino/icarus/workshop2023/reco/  # Reconstructed HDF5 files
 ```
 - Public
-```shell
-/upcoming/path/to/package.zip
-```
+  - [MPVMPR LArCV file](https://drive.google.com/file/d/1nP-fCq3e59rOePfDvECRsxoToUT03QLj/view?usp=sharing)
 
 The network model parameters for the inference tutorial can be found at:
 - SDF/S3DF (same path)
