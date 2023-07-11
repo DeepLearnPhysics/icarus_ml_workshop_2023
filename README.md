@@ -60,14 +60,16 @@ If you have apple silicon in your laptop, you're out of luck for now...
 - Public
   - [MPVMPR LArCV file](https://drive.google.com/file/d/1nP-fCq3e59rOePfDvECRsxoToUT03QLj/view?usp=sharing) (Day 1)
   - [MPVMPR HDF5 file](https://drive.google.com/file/d/1mlklhMtPVF39BJp51er6AP8uGypBO8MI/view?usp=sharing) (Day 2, 3)
+  - [BNB numu + cosmics](https://drive.google.com/file/d/1dbOq9ViuOGmLyTvoMuEkUtNn3nA1TWGo/view?usp=sharing) (Day 4, 5)
+  - [BNB intime cosmics](https://drive.google.com/file/d/1qBDUmCPjSsNi_SW6L6tWduPSFcBQaTMW/view?usp=sharing)
 
 3. The *network model parameters* for the inference tutorial can be found at:
-- SDF/S3DF (same path):
+- SDF/S3DF (same path)
 ```shell
 /sdf/group/neutrino/drielsma/train/icarus/localized/full_chain/weights/full_chain/grappa_inter_nomlp/snapshot-2999.ckpt
 ```
-- Public:
-[download path](https://drive.google.com/file/d/1jKcNHWSk-MgyRM7fqQF8Tsgb5VCadKbR/view?usp=sharing)
+- Public
+  - [snapshot-2999.ckpt](https://drive.google.com/file/d/1jKcNHWSk-MgyRM7fqQF8Tsgb5VCadKbR/view?usp=sharing)
 
 ## Computing resource
 Most of the notebooks can be ran strictly on CPU with the exception of:
