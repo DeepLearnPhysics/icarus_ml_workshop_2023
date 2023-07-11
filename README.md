@@ -25,7 +25,7 @@ $ singularity exec --bind /path/to/workshop/folder/ larcv2_ub20.04-cuda11.6-pyto
 
 You can also pull the docker image using docker (easier on Mac and Windows) directly with:
 ```shell
-$ docker pull ~/slac/images/larcv2_ub20.04-cuda11.6-pytorch1.13-larndsim.sif
+$ docker pull deeplearnphysics/larcv2:ub20.04-cuda11.6-pytorch1.13-larndsim
 ```
 To see which images are present on your system, you can use docker images. It will look something like this:
 ```shell
@@ -44,9 +44,9 @@ If you have apple silicon in your laptop, you're out of luck for now...
 
 ## Resources
 
-The configuration files are packages with this repository.
+1. The *configuration files* are packages with this repository.
 
-You can find data files for the examples used in this workshop under:
+2. You can find *data files* for the examples used in this workshop under:
 - SDF
 ```shell
 /sdf/group/neutrino/icarus/workshop2023/larcv/ # Example MPV/MPR file prior to reconstruction
@@ -58,16 +58,15 @@ You can find data files for the examples used in this workshop under:
 /sdf/data/neutrino/icarus/workshop2023/reco/  # Reconstructed HDF5 files
 ```
 - Public
-```shell
-/upcoming/path/to/package.zip
-```
+  - [MPVMPR LArCV file](https://drive.google.com/file/d/1nP-fCq3e59rOePfDvECRsxoToUT03QLj/view?usp=sharing) (Day 1)
+  - [MPVMPR HDF5 file](https://drive.google.com/file/d/1mlklhMtPVF39BJp51er6AP8uGypBO8MI/view?usp=sharing) (Day 2, 3)
 
-The network model parameters for the inference tutorial can be found at:
-- SDF/S3DF (same path)
+3. The *network model parameters* for the inference tutorial can be found at:
+- SDF/S3DF (same path):
 ```shell
 /sdf/group/neutrino/drielsma/train/icarus/localized/full_chain/weights/full_chain/grappa_inter_nomlp/snapshot-2999.ckpt
 ```
-- Public
+- Public:
 [download path](https://drive.google.com/file/d/1jKcNHWSk-MgyRM7fqQF8Tsgb5VCadKbR/view?usp=sharing)
 
 ## Computing resource
