@@ -2,7 +2,7 @@ match_making_parameters:
   matching_method: 'dca'
 
 dca_parameters:
-  threshold: 100
+  threshold: 50
   method: 'simple'
   trigger_timestamp: None
   isdata: False
