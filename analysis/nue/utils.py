@@ -6,6 +6,7 @@ import sys
 
 from sklearn.metrics import confusion_matrix
 from mlreco.visualization.metrics import *
+from mlreco.utils.globals import *
 
 def make_confusion_matrix(df_plot, truth_name='Truth', pred_name='Prediction', normalize='true', ax=None):
     
