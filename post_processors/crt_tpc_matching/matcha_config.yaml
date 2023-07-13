@@ -1,0 +1,20 @@
+match_making_parameters:
+  matching_method: 'dca'
+
+dca_parameters:
+  threshold: 50
+  method: 'simple'
+  trigger_timestamp: None
+  isdata: False
+  
+pca_parameters:
+  radius: 10
+  min_points_in_radius: 10
+  direction_method: 'pca'
+
+file_save_config:
+  save_to_file: True
+  #save_file_path: '/sdf/data/neutrino/amogan/matcha/'
+  save_file_path: './'
+  save_file_name: 'matcha_output.pkl'
+
