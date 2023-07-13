@@ -32,7 +32,7 @@ def make_confusion_matrix(df_plot, truth_name='Truth', pred_name='Prediction', n
     return im, texts, (row_labels, col_labels)
 
 
-def reconstruct_nu_energy(df):
+def reconstruct_nu_energy(df, correction_factor=1.0):
     
     df_nu_ints = []
     for key, group in df.groupby(['Index', 'true_interaction_id']):
@@ -50,8 +50,8 @@ def reconstruct_nu_energy(df):
             'reco_KE_protons': protons['reco_csda_kinetic_energy'].sum(),
             'true_KE_protons': protons['true_csda_kinetic_energy'].sum(),
             'true_Einit_protons': (protons['true_energy_init'] - PROTON_MASS).sum(),
-            'reco_E_electrons': (electrons['reco_particle_depositions_sum'] * res_lsq.x + ELECTRON_MASS).sum(),
-            'true_E_electrons': (electrons['true_particle_depositions_sum'] * res_lsq.x + ELECTRON_MASS).sum(),
+            'reco_E_electrons': (electrons['reco_particle_depositions_sum'] * correction_factor + ELECTRON_MASS).sum(),
+            'true_E_electrons': (electrons['true_particle_depositions_sum'] * correction_factor + ELECTRON_MASS).sum(),
             'true_Einit_electrons': electrons['true_energy_init'].sum(),
             'electron_is_contained': electrons['true_particle_is_contained'].max(),
             'true_nu_energy': group['true_nu_energy_init'].mean(),
