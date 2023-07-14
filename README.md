@@ -63,6 +63,7 @@ If you have apple silicon in your laptop, you're out of luck for now...
   - [BNB numu + cosmics](https://drive.google.com/file/d/13zSSXzWO1rsigWirtcp2vjU3EWFV4CAy/view?usp=sharing) (Day 4, 5)
   - [BNB intime cosmics](https://drive.google.com/file/d/1qBDUmCPjSsNi_SW6L6tWduPSFcBQaTMW/view?usp=sharing) (Day 4)
   - [BNB nue + cosmics](https://drive.google.com/file/d/1TwEgVMGXB8ZbrW2tdBcWFrIx4A0YTcj8/view?usp=drive_link) (Day 4)
+  - [MPVMPR ee pair HDF5 file](https://drive.google.com/file/d/13x0seDs9ekQ6mwcnxUGkWJpwsis9DVRL/view?usp=sharing) (Day 5)
   - [High statistics CSV files](https://drive.google.com/drive/folders/1inRAzgCXSHEW-WAE1M25UTot_j7qioaO?usp=sharing)
 
 3. The *network model parameters* for the inference tutorial can be found at:
